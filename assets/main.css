@@ -1,0 +1,9 @@
+* {
+  font-family: 'Inter';
+  letter-spacing: -0.05em;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
