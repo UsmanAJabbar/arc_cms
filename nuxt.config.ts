@@ -1,10 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  css: [
-    'normalize.css/normalize.css',
-    'remixicon/fonts/remixicon.css',
-    '@/assets/main.css',
-  ],
+  css: ['remixicon/fonts/remixicon.css', '@/assets/main.css'],
   components: [
     {
       path: '~/components',
