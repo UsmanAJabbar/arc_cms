@@ -78,7 +78,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+a {
   margin: 0;
   padding: 0;
   border: 0;
@@ -126,4 +127,40 @@ table {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: inherit;
+}
+
+h1 {
+  font-size: 6rem;
+}
+h2 {
+  font-size: 3.5rem;
+}
+h3 {
+  font-size: 2.25rem;
+}
+h4,
+.btn {
+  font-size: 2rem;
+}
+h5 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  letter-spacing: -0.065em;
 }
