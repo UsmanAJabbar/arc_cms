@@ -79,13 +79,15 @@ time,
 mark,
 audio,
 video,
-a {
+a,
+button {
   margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Inter';
   letter-spacing: -0.05em;
   vertical-align: baseline;
+  background-color: unset;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -144,8 +146,7 @@ h2 {
 h3 {
   font-size: 2.25rem;
 }
-h4,
-.btn {
+h4 {
   font-size: 2rem;
 }
 h5 {
@@ -163,4 +164,10 @@ h5,
 h6,
 button {
   letter-spacing: -0.065em;
+}
+
+dl,
+dt,
+dd {
+  letter-spacing: -0.07em;
 }

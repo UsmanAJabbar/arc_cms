@@ -6,6 +6,16 @@ export const ROUTING: Route[] = [
   {
     name: 'Posts',
     path: '/posts',
+    subRoutes: [
+      {
+        name: 'User',
+        path: '/user',
+      },
+      {
+        name: 'Headers/Footers',
+        path: '/headers-footers',
+      },
+    ],
   },
   {
     name: 'Media/Gallery',
