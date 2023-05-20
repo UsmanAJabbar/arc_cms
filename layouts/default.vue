@@ -36,7 +36,10 @@ import { ROUTING } from './constants';
 .menu-container {
   margin-top: 15rem;
 }
-
+.content-container {
+  padding: 1rem;
+  width: 100%;
+}
 .sidebar-footer-slot {
   display: flex;
   flex-direction: column;
